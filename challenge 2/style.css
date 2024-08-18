@@ -1,0 +1,107 @@
+html {
+    font-size: 62.5%;
+    box-sizing: border-box;
+  }
+  
+  * {
+    margin: 0;
+    padding: 0;
+  }
+  
+  *, *:before, *:after {
+    box-sizing: inherit;
+  }
+  
+  body {
+    background: #FFEFEF; 
+    font-family: 'Poppins', sans-serif;
+    height: auto;
+    }
+  
+  .main {
+    max-width: 45rem;
+    margin-bottom: 120px;
+    margin-left: 1.5rem;
+    display: flex;
+    flex-direction: row;
+    gap: 2rem;
+  }
+  
+  .titulo {
+    font-size: 3rem;
+    padding: 1.5rem;
+    text-align: center;
+    margin: auto;
+    color: #F3D0D7;
+    font-weight: normal;
+  }
+  
+  .titulo span {
+    font-weight: bold; 
+  }
+
+  .textArea {
+    border-style: solid;
+    border-color: #F3D0D7;
+    border-width: 2px;
+    border-radius: 24px;
+    background-color: #F6F5F2;
+    height: 400px;
+    width: 400px;
+  }
+
+  .Informacion{
+    margin-left: 98px;
+    margin-top: 5px;
+  }
+
+  .botones{
+    display: flex;
+    margin-top: 18px;
+  }
+
+  .btn-encriptar{
+    background-color: #FFF8E3;
+    border: 2px solid #FCDDB0;
+    border-radius: 24px;
+    color: #E6A4B4;
+    cursor: pointer;
+    height: 67px;
+    width: 328px;
+    font-size: 2.5rem;
+    margin-left: 98px;
+  }
+
+  .btn-desencriptar{
+    background-color: #FFEFEF;
+    border: 2px solid #E6A4B4;
+    border-radius: 24px;
+    cursor: pointer;
+    height: 67px;
+    width: 328px;
+    font-family: 'Poppins', sans-serif;
+    font-size: 2.5rem;
+    color: #E6A4B4;
+    margin-left: 120px;
+  }
+
+  .btn-copiar{
+    background-color: #FFEFEF;
+    border: 2px solid #E6A4B4;
+    border-radius: 24px;
+    cursor: pointer;
+    height: 67px;
+    width: 328px;
+    font-family: 'Poppins', sans-serif;
+    font-size: 2.5rem;
+    color: #E6A4B4;
+    margin-left: 120px;
+  }
+
+  .footer {
+    background: #F3D7CA; 
+    font-family: 'Poppins', sans-serif;
+    text-align: center;
+    font-size: 1.6rem;
+    color: #E6A4B4;
+  }
